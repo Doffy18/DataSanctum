@@ -1,0 +1,1 @@
+HI, I simply made this to test y deployment skills and to seek blessings from the ml god 'iris' dataset. it doesn't have any preprocessing and EDA since its just to test deployment.

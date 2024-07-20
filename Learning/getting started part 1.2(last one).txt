@@ -1,0 +1,37 @@
+well,its been a long way. now we got an overall outline of what we are working on or like wht we are supposed to do when we are given a dataset right?
+wait... given a dataset.. aren't data scientist supposed to make their own datasets sometimes?.. yes... yes they need to but how?
+
+This processes of creating  datasets or data from information we have is called scrapping.
+there are 4 ways:
+Web Scraping: Extracting data from websites.
+APIs: Using Application Programming Interfaces to pull data from services like Twitter, Google, or any service providing an API.
+Databases: Querying databases to extract relevant information.
+Manual Data Entry: Collecting data manually if automated methods are not feasible.
+
+we do know sql right?(ye we will be revising it later),we know manuall work, api's… we will see that later. but the most important one out of them. the web scrapping. yes we wil be learning that. we need to be sure that we know web scrapping before entering part 2.
+
+
+
+WEB SCRAPPING-https://youtu.be/4tAp9Lu0eDI?si=xhZ4WYSuYj1fkR7a
+
+
+
+now finally we covered most of em right..web scrapping, exel… exel? ofcoure we need to have perfect tools,ig its time to upgrade:
+we will take steroids.... yes we will... steroids of exel
+
+
+
+POWERBI-https://youtu.be/3Y6rwm2mKI0?si=HqEHsfJ9QRcVV8e9 ( am not fond of Malayalam youtubers, but his sstyle got a class)
+
+
+
+u might be pleading... aren't we done yet....cant we leave to part 2....
+bt one more aspect... I need us to be perfect when we get to part2...
+that's deployment. as we seen in one of the videos, he used steamlit. we could also use Django(it ez bt till I consider it to be overkill)
+
+its your choice soldier:
+steamlit-https://youtube.com/playlist?list=PLuU3eVwK0I9PT48ZBYAHdKPFazhXg76h5&si=uIardJ6ixkjhKs54
+django-https://youtu.be/JxzZxdht-XY?si=62N6gpDR5QmYaCp9
+
+
+ye so we done. we actually 'kind of' have all skills tbh. now we just need to use em. This time I promise, next will be part 2. no more part 1points lol haha. wait for part 2.

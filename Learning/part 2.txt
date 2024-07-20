@@ -1,0 +1,25 @@
+yes, the wait is over. its part 2 where we will show case what we learned.
+
+before we start:
+yes, we need blessing of god of dataset.. one and only 'iris'. iris is a preloaded dataset in sklearn. so jst import it. we wont be doing preprocessing and EDA as dataset is small and already preprocessed somewhat. train it with linear regression or anything u like. build a streamlit app and deploy it. yes, its a warm up since we couldn't get anything better to test our deployment skills.
+------------------------------------------------------
+
+Till now we did guided projects. now we are entering unguided one. keeping in mind we focus on builind our resume too, I've heard git is an important aspect to(no am not telling we do everything there... wait). so we learn git and upload a few projects there to like we must show the  board that we do know git and we are flexible. so I got a recommendation:
+
+1. simply upload some projects in git
+2. created a guided and unguided section in git and upload the guided projects we did(all video projects) and unguided projects there. or do viceversa in Kaggle using Kaggle colleection.
+3.keep in mind Kaggle is home for data science and no one will question us if we focus there. so u can either upload some random things in github to showcase u can use git and focus uploading guided and unguided projects in Kaggle.
+
+its your choice...
+here is the link for git and GitHub tutorial:
+https://youtu.be/gwWKnnCMQ5c?si=S7jzgAaoHebvRUOf
+
+
+anyway we upload the guided projects. now we move on to unguided projects. 1st we will do a housing dataset from Kaggle(nah.. not god dataset), I picked it up from a competition(Kaggle competition, we will see it in next part). we will do everything we know on that datset, from preprocessing,EDA, model development,powerbi(could be part of eda if u wish or do seperate) and deploy.(u might think about scrapping? we will see it later).just do what you feel right with data,forget worries about whether its right or wrong.its to build some confidence in us.we will surely look on to other ptojects with other ppl giving solutions to check. this is just for our free will to play.
+
+i'll send the dataset along with this text doc.
+
+yes its just the starting... will see in part 2.1
+
+
+

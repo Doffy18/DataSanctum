@@ -1,0 +1,66 @@
+import pandas as pd
+
+# Define sample data
+sample_data = {
+    'LotFrontage': [80, 81],
+    'LotArea': [9600, 9601],
+    'OverallQual': [7, 8],
+    'YearBuilt': [2003, 2004],
+    'YearRemodAdd': [2003, 2004],
+    'MasVnrArea': [196, 197],
+    'BsmtFinSF1': [706, 707],
+    'BsmtUnfSF': [150, 151],
+    'TotalBsmtSF': [856, 857],
+    '1stFlrSF': [856, 857],
+    '2ndFlrSF': [854, 855],
+    'GrLivArea': [1710, 1712],
+    'BsmtFullBath': [1, 1],
+    'FullBath': [2, 2],
+    'HalfBath': [1, 1],
+    'TotRmsAbvGrd': [8, 9],
+    'Fireplaces': [0, 1],
+    'GarageYrBlt': [2003, 2004],
+    'GarageCars': [2, 3],
+    'GarageArea': [548, 549],
+    'WoodDeckSF': [0, 100],
+    'OpenPorchSF': [61, 62],
+    'MSZoning_RL': [1, 1],
+    'MSZoning_RM': [0, 0],
+    'LotShape_Reg': [1, 1],
+    'Neighborhood_NoRidge': [0, 0],
+    'Neighborhood_NridgHt': [1, 1],
+    'Neighborhood_StoneBr': [0, 0],
+    'HouseStyle_2Story': [1, 1],
+    'RoofStyle_Gable': [1, 1],
+    'RoofStyle_Hip': [0, 0],
+    'Exterior1st_VinylSd': [1, 1],
+    'Exterior2nd_VinylSd': [1, 1],
+    'ExterQual_Gd': [1, 1],
+    'ExterQual_TA': [0, 0],
+    'Foundation_CBlock': [0, 0],
+    'Foundation_PConc': [1, 1],
+    'BsmtQual_Gd': [1, 1],
+    'BsmtQual_TA': [0, 0],
+    'BsmtExposure_Gd': [0, 0],
+    'BsmtExposure_No': [1, 1],
+    'BsmtFinType1_GLQ': [1, 1],
+    'HeatingQC_TA': [0, 0],
+    'CentralAir_Y': [1, 1],
+    'Electrical_SBrkr': [1, 1],
+    'KitchenQual_Gd': [1, 1],
+    'KitchenQual_TA': [0, 0],
+    'GarageType_Attchd': [1, 1],
+    'GarageType_BuiltIn': [0, 0],
+    'GarageType_Detchd': [0, 0],
+    'GarageFinish_Unf': [0, 0],
+    'PavedDrive_Y': [1, 1],
+    'SaleType_New': [1, 0],
+    'SaleType_WD': [0, 1],
+    'SaleCondition_Partial': [1, 0]
+}
+
+# Create DataFrame
+sample_df = pd.DataFrame(sample_data)
+
+# Save to CSV
+sample_df.to_csv('sample_data.csv', index=False)

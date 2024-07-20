@@ -1,0 +1,14 @@
+where we save our work? git or Kaggle.
+https://youtu.be/KfpOuSH9gDc?si=LQJQ6qWt6ZLdAPsU
+
+Start from this, just to get an outline:
+https://youtu.be/iIkJrwVUl1c?si=1oUNb4OnfyNGrPNo
+
+movie recommendation system[medium][yes,things gets real this time]:
+https://youtu.be/1xtrIEwY_zY?si=ucujxWjP6n965ks1
+
+cricket analysis[lets use some tools too[hard]]:
+https://youtu.be/4QkYy1wANXA?si=E1V45_DUrJh1hhe2
+
+honestly, now we are ready for boss fights... lets head to Kaggle(I hope u choose right path and didn't not fall for git) and start working on open source projects.before that if u need u can create ur own projects by downloading random datasets and play with it like how a 3yr old ruthlessly murders a poor bug... mb...anyway get going. if u still stuvk with git...contact me.. I shall provide u some more stuff.
+

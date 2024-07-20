@@ -1,0 +1,4 @@
+https://beautiful-soup-4.readthedocs.io/en/latest/
+
+use chatgpt to code. time saving
+identify the divs  to code
