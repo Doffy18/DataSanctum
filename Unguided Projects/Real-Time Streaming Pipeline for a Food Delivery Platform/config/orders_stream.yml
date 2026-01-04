@@ -1,0 +1,22 @@
+postgres:
+  jdbc_url: "jdbc:postgresql://localhost:5432/postgres"
+  host: "localhost"
+  port: 5432
+  db: "postgres"
+  user: "postgres"
+  password: "hdoop"
+  table: "food_orders"
+
+kafka:
+  brokers: "localhost:9092"
+  topic: "orders"
+
+datalake:
+  path: "/home/hdoop/Downloads/Food/DataLake"
+  format: "parquet"
+
+streaming:
+  checkpoint_location: "/home/hdoop/Downloads/Food/DataLake/checkpoint"
+  last_processed_timestamp_location: "/home/hdoop/Downloads/Food/producers"
+  batch_interval: 5
+
