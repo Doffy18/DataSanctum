@@ -1,0 +1,21 @@
+sellercatalog:
+  inputpath_clean: "/home/hdoop/Downloads/ecommerce_recommendation/raw_data/seller_catalog_clean.csv"
+  inputpath_dirty: "/home/hdoop/Downloads/ecommerce_recommendation/raw_data/seller_catalog_dirty.csv"
+  hudioutputpath: "/home/hdoop/Downloads/ecommerce_recommendation/hudi_data/sellercatalog_silver"
+  quarantinepath: "/home/hdoop/Downloads/ecommerce_recommendation/quarantine/sellercatalog"
+
+companysales:
+  inputpath_clean: "/home/hdoop/Downloads/ecommerce_recommendation/raw_data/company_sales_clean.csv"
+  inputpath_dirty: "/home/hdoop/Downloads/ecommerce_recommendation/raw_data/company_sales_dirty.csv"
+  hudioutputpath: "/home/hdoop/Downloads/ecommerce_recommendation/hudi_data/companysales_silver"
+  quarantinepath: "/home/hdoop/Downloads/ecommerce_recommendation/quarantine/companysales"
+
+competitorsales:
+  inputpath_clean: "/home/hdoop/Downloads/ecommerce_recommendation/raw_data/competitor_sales_clean.csv"
+  inputpath_dirty: "/home/hdoop/Downloads/ecommerce_recommendation/raw_data/competitor_sales_dirty.csv"
+  hudioutputpath: "/home/hdoop/Downloads/ecommerce_recommendation/hudi_data/competitorsales_silver"
+  quarantinepath: "/home/hdoop/Downloads/ecommerce_recommendation/quarantine/competitorsales"
+
+recommendations:
+  outputpath: "/home/hdoop/Downloads/ecommerce_recommendation/gold_data/recommendations.csv"
+
