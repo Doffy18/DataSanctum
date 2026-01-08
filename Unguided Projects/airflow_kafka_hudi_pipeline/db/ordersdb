@@ -1,0 +1,47 @@
+SHOW config_file;
+SHOW wal_level;
+SHOW max_replication_slots;
+SHOW max_wal_senders;
+
+CREATE USER debezium_user WITH PASSWORD 'debezium_pass'; --Create Debezium Replication User
+ALTER USER debezium_user WITH REPLICATION LOGIN; -- Grant replication + login
+GRANT CONNECT ON DATABASE postgres TO debezium_user; -- Grant DB access
+GRANT USAGE ON SCHEMA public TO debezium_user; -- Grant schema & table access
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO debezium_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public -- Future tables access
+GRANT SELECT ON TABLES TO debezium_user;
+
+
+create table events(
+event_id varchar(30), 
+user_id varchar(30),
+event_type varchar(30) NOT NULL,
+product_id varchar(30) NOT NULL,
+price numeric(10,2),
+event_time TIMESTAMP default current_timestamp
+);
+ALTER TABLE events ADD COLUMN id BIGSERIAL PRIMARY KEY; -- a primary key column is necessary for debezium
+
+INSERT INTO events(event_id,user_id,event_type,product_id,price) values
+('e1',1,'product_view','p20',NULL),
+('e2',2,'add_to_cart','p20',299.00),
+('e3',3,'remove_from_cart','p10',599.00);
+
+
+INSERT INTO public.events (event_id,user_id,event_type,product_id,price) VALUES ('e4',1,'product_view','p20',NULL);
+INSERT INTO public.events (event_id,user_id,event_type,product_id,price) VALUES ('e5',7,'add_to_cart','p50',499.00);
+INSERT INTO public.events (event_id,user_id,event_type,product_id,price) VALUES ('e8',5,'add_to_cart','p80',499.00);
+
+select*from events;
+
+CREATE PUBLICATION debezium_pub FOR TABLE public.events;  -- Create Publication in Postgres
+SELECT pubname, enabled FROM pg_publication;  --verify creation 
+
+--Debezium will automatically:
+   --Create replication slot
+     --Attach to publication
+	--After startup, verify:
+	
+SELECT slot_name, plugin, active FROM pg_replication_slots; --expected : 
+SELECT * FROM pg_stat_replication; - expected -- 1 row (Debezium logical replica)
+

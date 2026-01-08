@@ -1,0 +1,2 @@
+v1
+{"path":"file:///home/hdoop/Downloads/airflow_kafka_hudi_pipeline/DataLake/parquet/part-00000-2504cc9e-5801-4be9-b69d-d5af040f5b62-c000.snappy.parquet","size":2472,"isDir":false,"modificationTime":1767895048871,"blockReplication":1,"blockSize":33554432,"action":"add"}
